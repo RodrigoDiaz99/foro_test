@@ -144,6 +144,7 @@ return array(
     'Carbon\\Traits\\Week' => $vendorDir . '/nesbot/carbon/src/Carbon/Traits/Week.php',
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
     'CategoriesTableSeeder' => $baseDir . '/database/seeds/CategoriesTableSeeder.php',
+    'ChatterTableSeeder' => $baseDir . '/database/seeds/ChatterTableSeeder.php',
     'Composer\\Autoload\\AutoloadGenerator' => $vendorDir . '/composer/composer/src/Composer/Autoload/AutoloadGenerator.php',
     'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/composer/src/Composer/Autoload/ClassLoader.php',
     'Composer\\Autoload\\ClassMapGenerator' => $vendorDir . '/composer/composer/src/Composer/Autoload/ClassMapGenerator.php',

@@ -553,6 +553,44 @@
         ]
     },
     {
+        "name": "devdojo/chatter",
+        "version": "0.2.7",
+        "version_normalized": "0.2.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thedevdojo/chatter.git",
+            "reference": "ca1b4d6e76dacbd77867d046f9bdcca0b6a75f61"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thedevdojo/chatter/zipball/ca1b4d6e76dacbd77867d046f9bdcca0b6a75f61",
+            "reference": "ca1b4d6e76dacbd77867d046f9bdcca0b6a75f61",
+            "shasum": ""
+        },
+        "require-dev": {
+            "illuminate/cache": "~5.1.20|5.2.*|5.3.*",
+            "illuminate/console": "~5.1.20|5.2.*|5.3.*",
+            "mockery/mockery": "^0.9.5",
+            "phpunit/phpunit": "~5.7.14"
+        },
+        "time": "2017-03-12T21:13:57+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DevDojo\\Chatter\\": "/src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Tony Lea",
+                "email": "tony@devdojo.com"
+            }
+        ],
+        "description": "A simple forum package for your laravel app"
+    },
+    {
         "name": "dnoegel/php-xdg-base-dir",
         "version": "v0.1.1",
         "version_normalized": "0.1.1.0",
@@ -7903,6 +7941,36 @@
                 "type": "github"
             }
         ]
+    },
+    {
+        "name": "test-hook",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/larapack/test-hook.git",
+            "reference": "v1.0.0"
+        },
+        "require": {
+            "larapack/hooks": "~1.0"
+        },
+        "time": "2020-10-17T14:10:31+00:00",
+        "type": "library",
+        "extra": {
+            "hook": {
+                "providers": [
+                    "TestHook\\TestHookServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "TestHook\\": "src/"
+            }
+        },
+        "notification-url": "https://larapack.io/downloads",
+        "description": "This is my first hook."
     },
     {
         "name": "theseer/tokenizer",

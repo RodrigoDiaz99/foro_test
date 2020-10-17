@@ -58,6 +58,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         array (
             'TijsVerkoyen\\CssToInlineStyles\\' => 31,
             'Tests\\' => 6,
+            'TestHook\\' => 9,
             'TCG\\Voyager\\' => 12,
         ),
         'S' => 
@@ -171,6 +172,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\' => 16,
+            'DevDojo\\Chatter\\' => 16,
             'DeepCopy\\' => 9,
         ),
         'C' => 
@@ -225,6 +227,10 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'Tests\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests',
+        ),
+        'TestHook\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/test-hook/src',
         ),
         'TCG\\Voyager\\' => 
         array (
@@ -522,6 +528,10 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         array (
             0 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
         ),
+        'DevDojo\\Chatter\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/devdojo/chatter/src',
+        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
@@ -731,6 +741,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'Carbon\\Traits\\Units' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Units.php',
         'Carbon\\Traits\\Week' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Traits/Week.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'CategoriesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/CategoriesTableSeeder.php',
         'Composer\\Autoload\\AutoloadGenerator' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/AutoloadGenerator.php',
         'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/ClassLoader.php',
         'Composer\\Autoload\\ClassMapGenerator' => __DIR__ . '/..' . '/composer/composer/src/Composer/Autoload/ClassMapGenerator.php',
@@ -1000,6 +1011,8 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'Cron\\HoursField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/HoursField.php',
         'Cron\\MinutesField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MinutesField.php',
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
+        'DataRowsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/DataRowsTableSeeder.php',
+        'DataTypesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/DataTypesTableSeeder.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
@@ -1025,6 +1038,21 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'DeepCopy\\TypeFilter\\Spl\\SplDoublyLinkedListFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/Spl/SplDoublyLinkedListFilter.php',
         'DeepCopy\\TypeFilter\\TypeFilter' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeFilter/TypeFilter.php',
         'DeepCopy\\TypeMatcher\\TypeMatcher' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/TypeMatcher/TypeMatcher.php',
+        'DevDojo\\Chatter\\ChatterServiceProvider' => __DIR__ . '/..' . '/devdojo/chatter/src/ChatterServiceProvider.php',
+        'DevDojo\\Chatter\\Controllers\\ChatterAtomController' => __DIR__ . '/..' . '/devdojo/chatter/src/Controllers/ChatterAtomController.php',
+        'DevDojo\\Chatter\\Controllers\\ChatterController' => __DIR__ . '/..' . '/devdojo/chatter/src/Controllers/ChatterController.php',
+        'DevDojo\\Chatter\\Controllers\\ChatterDiscussionController' => __DIR__ . '/..' . '/devdojo/chatter/src/Controllers/ChatterDiscussionController.php',
+        'DevDojo\\Chatter\\Controllers\\ChatterPostController' => __DIR__ . '/..' . '/devdojo/chatter/src/Controllers/ChatterPostController.php',
+        'DevDojo\\Chatter\\Events\\ChatterAfterNewDiscussion' => __DIR__ . '/..' . '/devdojo/chatter/src/Events/ChatterAfterNewDiscussion.php',
+        'DevDojo\\Chatter\\Events\\ChatterAfterNewResponse' => __DIR__ . '/..' . '/devdojo/chatter/src/Events/ChatterAfterNewResponse.php',
+        'DevDojo\\Chatter\\Events\\ChatterBeforeNewDiscussion' => __DIR__ . '/..' . '/devdojo/chatter/src/Events/ChatterBeforeNewDiscussion.php',
+        'DevDojo\\Chatter\\Events\\ChatterBeforeNewResponse' => __DIR__ . '/..' . '/devdojo/chatter/src/Events/ChatterBeforeNewResponse.php',
+        'DevDojo\\Chatter\\Helpers\\ChatterHelper' => __DIR__ . '/..' . '/devdojo/chatter/src/Helpers/ChatterHelper.php',
+        'DevDojo\\Chatter\\Mail\\ChatterDiscussionUpdated' => __DIR__ . '/..' . '/devdojo/chatter/src/Mail/ChatterDiscussionUpdated.php',
+        'DevDojo\\Chatter\\Models\\Category' => __DIR__ . '/..' . '/devdojo/chatter/src/Models/Category.php',
+        'DevDojo\\Chatter\\Models\\Discussion' => __DIR__ . '/..' . '/devdojo/chatter/src/Models/Discussion.php',
+        'DevDojo\\Chatter\\Models\\Models' => __DIR__ . '/..' . '/devdojo/chatter/src/Models/Models.php',
+        'DevDojo\\Chatter\\Models\\Post' => __DIR__ . '/..' . '/devdojo/chatter/src/Models/Post.php',
         'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
         'Doctrine\\Common\\Cache\\ApcCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/ApcCache.php',
         'Doctrine\\Common\\Cache\\ApcuCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/ApcuCache.php',
@@ -3624,6 +3652,8 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'League\\MimeTypeDetection\\FinfoMimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/FinfoMimeTypeDetector.php',
         'League\\MimeTypeDetection\\GeneratedExtensionToMimeTypeMap' => __DIR__ . '/..' . '/league/mime-type-detection/src/GeneratedExtensionToMimeTypeMap.php',
         'League\\MimeTypeDetection\\MimeTypeDetector' => __DIR__ . '/..' . '/league/mime-type-detection/src/MimeTypeDetector.php',
+        'MenuItemsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MenuItemsTableSeeder.php',
+        'MenusTableSeeder' => __DIR__ . '/../..' . '/database/seeds/MenusTableSeeder.php',
         'Mockery' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
@@ -4252,7 +4282,10 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'PHP_Token_XOR_EQUAL' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
         'PHP_Token_YIELD_FROM' => __DIR__ . '/..' . '/phpunit/php-token-stream/src/Token.php',
+        'PagesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PagesTableSeeder.php',
         'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
+        'PermissionRoleTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PermissionRoleTableSeeder.php',
+        'PermissionsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PermissionsTableSeeder.php',
         'PharIo\\Manifest\\Application' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Application.php',
         'PharIo\\Manifest\\ApplicationName' => __DIR__ . '/..' . '/phar-io/manifest/src/values/ApplicationName.php',
         'PharIo\\Manifest\\Author' => __DIR__ . '/..' . '/phar-io/manifest/src/values/Author.php',
@@ -4561,6 +4594,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'PhpParser\\Parser\\Tokens' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/Parser/Tokens.php',
         'PhpParser\\PrettyPrinterAbstract' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinterAbstract.php',
         'PhpParser\\PrettyPrinter\\Standard' => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php',
+        'PostsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/PostsTableSeeder.php',
         'Prophecy\\Argument' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument.php',
         'Prophecy\\Argument\\ArgumentsWildcard' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/ArgumentsWildcard.php',
         'Prophecy\\Argument\\Token\\AnyValueToken' => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy/Argument/Token/AnyValueToken.php',
@@ -4955,6 +4989,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'Ramsey\\Uuid\\UuidInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/UuidInterface.php',
         'Ramsey\\Uuid\\Validator\\GenericValidator' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/GenericValidator.php',
         'Ramsey\\Uuid\\Validator\\ValidatorInterface' => __DIR__ . '/..' . '/ramsey/uuid/src/Validator/ValidatorInterface.php',
+        'RolesTableSeeder' => __DIR__ . '/../..' . '/database/seeds/RolesTableSeeder.php',
         'SebastianBergmann\\CodeCoverage\\CodeCoverage' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/CodeCoverage.php',
         'SebastianBergmann\\CodeCoverage\\CoveredCodeNotExecutedException' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Exception/CoveredCodeNotExecutedException.php',
         'SebastianBergmann\\CodeCoverage\\Driver\\Driver' => __DIR__ . '/..' . '/phpunit/php-code-coverage/src/Driver/Driver.php',
@@ -5075,6 +5110,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'Seld\\PharUtils\\Linter' => __DIR__ . '/..' . '/seld/phar-utils/src/Linter.php',
         'Seld\\PharUtils\\Timestamps' => __DIR__ . '/..' . '/seld/phar-utils/src/Timestamps.php',
         'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
+        'SettingsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/SettingsTableSeeder.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
         'Symfony\\Component\\Console\\Application' => __DIR__ . '/..' . '/symfony/console/Application.php',
         'Symfony\\Component\\Console\\CommandLoader\\CommandLoaderInterface' => __DIR__ . '/..' . '/symfony/console/CommandLoader/CommandLoaderInterface.php',
@@ -6008,6 +6044,7 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'TCG\\Voyager\\Widgets\\PageDimmer' => __DIR__ . '/..' . '/tcg/voyager/src/Widgets/PageDimmer.php',
         'TCG\\Voyager\\Widgets\\PostDimmer' => __DIR__ . '/..' . '/tcg/voyager/src/Widgets/PostDimmer.php',
         'TCG\\Voyager\\Widgets\\UserDimmer' => __DIR__ . '/..' . '/tcg/voyager/src/Widgets/UserDimmer.php',
+        'TestHook\\TestHookServiceProvider' => __DIR__ . '/..' . '/test-hook/src/TestHookServiceProvider.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
@@ -6027,9 +6064,13 @@ class ComposerStaticInit5675e54cf1f1645713b1f4adbd9887a1
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Property\\Property' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Property/Property.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Processor' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Processor.php',
         'TijsVerkoyen\\CssToInlineStyles\\Css\\Rule\\Rule' => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src/Css/Rule/Rule.php',
+        'TranslationsTableSeeder' => __DIR__ . '/../..' . '/database/seeds/TranslationsTableSeeder.php',
         'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
+        'UsersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersTableSeeder.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
+        'VoyagerDatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/VoyagerDatabaseSeeder.php',
+        'VoyagerDummyDatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/VoyagerDummyDatabaseSeeder.php',
         'Webmozart\\Assert\\Assert' => __DIR__ . '/..' . '/webmozart/assert/src/Assert.php',
         'Webmozart\\Assert\\Mixin' => __DIR__ . '/..' . '/webmozart/assert/src/Mixin.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',

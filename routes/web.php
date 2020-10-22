@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect('forums');
+    return redirect('admin');
 });
 
 Auth::routes();

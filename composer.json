@@ -15,7 +15,8 @@
         "laravel/framework": "^7.24",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.4",
-        "tcg/voyager": "^1.4"
+        "tcg/voyager": "^1.4",
+        "webdevmatics/chatter": "dev-master"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
@@ -66,6 +67,11 @@
         "hooks": {
             "type": "composer",
             "url": "https://larapack.io"
+        },
+        "chatter":{
+            "type": "vcs",
+            "url": "https://github.com/webdevmatics/chatter"
         }
+
     }
 }
